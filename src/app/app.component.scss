@@ -1,0 +1,66 @@
+.example-sidenav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+  }
+
+  .extended-fab-button {
+    width: unset;
+    padding: 0 40px;
+    border-radius: 40px;
+  }
+
+  .mat-icon {
+    margin-right: 10px;
+   }
+  
+    .extended-fab-button__text {
+      font-weight: 350;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .example-spacer {
+        flex: 1 1 auto;
+      }
+
+      
+      .speed-dial-wrapper {
+        display: block;
+        position: fixed;
+        right: 32px;
+        bottom: 32px;
+        margin-bottom: 0 !important;
+      }
+      
+      .mat-fab .mat-icon {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+      }
+      
+      .dial {
+        margin-bottom: 8px;
+      
+        display: flex;
+        flex-direction: column-reverse;
+      
+        .mat-mini-fab {
+          margin: 8px 0;
+        }
+      }
+      
+      .tooltip {
+        padding: 4px 8px;
+        background: rgba(50,50,50,0.9);
+        color: white;
+        border-radius: 4px;
+        margin: 8px;
+        font-size: 12px;
+      }
+      .list-item-active {
+        font-weight: bold;
+        color: mat-color(darker, darker) !important;
+        background: rgba(0, 0, 0, 0.04);
+      }
